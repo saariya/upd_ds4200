@@ -159,8 +159,8 @@ h4 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 20px auto;
-    box-sizing: border-box
+    margin: 20px 0 10px;
+    /*box-sizing: border-box
 }
 
 /* Ensures images inside .bigplot don't stretch */
