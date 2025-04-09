@@ -149,7 +149,6 @@ h4 {
     }
 }*/
 
-/*og code*/
 /* Big Plots */
 .bigplot {
     max-width: 100%; /* Keeps it inside its container */
@@ -168,8 +167,6 @@ h4 {
     height: auto;
     border-radius: 8px;
 }
-/*og code*/
-
 
 .vis{align-items: center;
     width: fit-content; /* Adjust width based on content */
