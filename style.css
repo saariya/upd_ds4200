@@ -150,6 +150,7 @@ h4 {
 }*/
 
 /*og code*/
+/* Big Plots */
 .bigplot {
     max-width: 100%; /* Keeps it inside its container */
     overflow: hidden; /* Prevents content from overflowing */
