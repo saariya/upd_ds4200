@@ -151,7 +151,7 @@ h4 {
 
 /* Big Plots */
 .bigplot {
-    max-width: 95%; /* Keeps it inside its container */
+    max-width: 100%; /* Keeps it inside its container */
     overflow: hidden; /* Prevents content from overflowing */
     display: flex; /* Aligns items neatly */
     flex-direction: column; /* Stacks elements properly */
