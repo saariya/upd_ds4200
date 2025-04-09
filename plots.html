@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Plots</title>
+    <link rel="stylesheet" href="style.css">
+</head> <!--done-->
+<body>
+    <header>
+        <h4>SPOTIFY MUSIC POPULARITY PREDICTOR</h4>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="plots.html" class="active">Plots</a></li>
+                <li><a href="we.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--
+       -->
+    
+    <main>
+        <section class="plots">
+            <h2>Heatmap - Popularity</h2>
+            <a href="plot1.html"> <img src="images/heatmap.png" class="plot-image"> </a>
+            <p>This visualization attempts to show the relationship of all features with popularity</p>
+            <h3>What this plot does</h3>
+            <ul class="plot-list">
+                <li>The heat map shows that all features appear to be objectively loosely related to popularity. However, in relative terms, popularity is the most strongly correlated with loudness and danceability. </li>
+                <li>The correlation between energy and popularity is very low (0.00), suggesting that energy levels do not have a meaningful relationship with the popularity of a song, as opposed to our initial believes.</li>
+                <li>Despite some features showing weak correlations with popularity (such as tempo and danceability), loudness remains the strongest (0.05) factor in determining popularity, but due to its manual controllability, we focus on danceability (0.04) for more insights on our analysis.</li>
+            </ul>
+
+            <!--LINE BREAK-->
+            <h2>Popular Genre Distribution</h2>
+            <a href="plot2.html"><img src="images/vplot.png" class="plot-image"></a>
+            <p>This visualization shows the distribution of the 3 most popular genres and allows the user to choose the 4th genre from the drop down.</p>
+            <h3>What this plot does</h3>
+            <ul class="plot-list">
+                <li>The goal with this plot is to understand the popularity distribution of various genres of songs by comparing them against the distributions of 3 most popular genres. The first three graphs display the popularity distribution for the three most popular genres: pop-film, k-pop, and chill. These distributions show how popularity is spread across these genres, with some genres having a wider range of popularity values.</li>
+                <li>This analysis revealed to us that 'pop-film' has a normal distribution with multiple outliers. 'k-pop', however, is bi-modal, and ranges across a wide margin of popularity. The bi-modal distribution points to the existence of two major bands / artists / sub-genres. Although 'chill' has a wider range, it is uniformally distributed as well!</li>
+                <li>The fourth graph allows you to select any genre from a dropdown menu, enabling you to explore the popularity distribution of a specific genre beyond the fixed ones, offering more flexibility in analysis: Niche music styles like 'iranian' tend to attrack smaller groups of audience, and their popularity starts and ends within a range of 40. Whereas, 'edm' is spread across the entire relvant range and displays a bi-modal distribution.</li>
+            </ul>
+            <!--LINE BREAK-->
+
+            <h2>Popularity Distribution of the top 3 most Danceable Genres</h2>
+            <a href="plot3.html"><img src="images/plot-3.png" class="plot-image"></a>
+            <p>
+                <!-- Your detailed text about interests (at least 200 words) -->
+                This plot shows the distribution of three most danceable songs while comparinf their danceability. </p>
+            <h3>What this plot does</h3>
+            <ul class="plot-list">
+                <li>In the first analysis, we concluded that danceability is the strongest, manually unalterable correlated feature to popularity. This prompted us to compare the danceability of three most danceable song genres.</li>
+                <li>Upon conducting the analysis, we observe that the danceability of three most danceable genres - 'kids', 'chicago-house', 'reggaeton' - is approximately the same (.79).</li>
+                <li>Next, we used the interactive feature which let us view the scatter plot distribution of these genres' popularities. We noticed that the popularity of 'kids' ranges from 10 to 25, 'chicago-house' from 3 to 20, and 'reggaeton' had an interestig distribution. First cluster ranged from 0 to 10 and the second cluster ranged from 40 to 100, and no songs between the 10 to 40 range of popularity. This reveals the existence of two primary sub-genres or artists!</li>
+            </ul>
+            <!--LINE BREAK-->
+
+            <h2> Popularity Distribution of the top 3 most Danceable Genres </h2>
+            <a href="plot4.html"><img src="images/plot-4.png" class="plot-image"></a>
+            <p>This image shows a violin plot representing the popularity distribution for the chosen genre. The visualization combines elements of a box plot and a density plot to show both the statistical summary and the full distribution shape.</p>
+            <h3>What this plot does</h3>
+            <ul class="plot-list">
+                <li>The chosen genre shows a median popularity score of approximately 22-25, with most songs clustering in the moderate popularity range (15-30). </li>
+                <li>The violin shape reveals an interesting distribution with both a thin tail of highly popular outliers (reaching up to 80) and a small number of very low popularity tracks near 0.</li>
+                <li>The interface includes a dropdown menu that allows users to select and analyze different music genres, with "afrobeat" currently displayed in this view.</li>
+            </ul>  
+        </section>
+        <section>
+            <h2>Conclusion</h2>
+            <p>
+        From our analysis, we observed several key trends in music popularity. Most songs tend to be short, with a peak duration of 2-4 minutes, and longer songs (over 10 minutes) are rare. Additionally, shorter songs tend to be more popular, as indicated by a negative correlation between duration and popularity—songs under 10 minutes are more likely to have higher popularity ratings.
+        Genre also plays a role in popularity distribution. In the case of alt-rock, the data reveals a bimodal trend, where some songs achieve moderate to high popularity while others remain obscure. Meanwhile, danceability appears to have a slight positive relationship with popularity across acoustic, punk-rock, and progressive-house genres. Punk-rock songs tend to be more common at higher danceability values, whereas progressive-house tracks are more consistently clustered in the mid-range of both metrics.
+        Overall, our findings suggest that shorter, more danceable songs generally perform better in terms of popularity. However, genre-specific trends highlight that other factors, such as niche appeal and audience preferences, also play a significant role in a song’s success.</p></section>
+
+        
+    
+        
+    </main>
+    
+    <!--<footer>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Let's Chat!</p>
+            <ul class="contact-links">
+                <li><a href="faraz.s@northeastern.edu">My Email</a></li>
+                <li><a href="https://www.linkedin.com/in/saariya-faraz/" target="_blank">Check out my LinkedIn!</a></li>
+                <li><a href="https://github.com/saariya" target="_blank">My GitHub</a></li>
+            </ul>
+        </section>
+        <p>&copy; 2025 Saariya Faraz</p>
+    </footer>-->
+</body>
+</html>

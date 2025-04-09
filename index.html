@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicting Music Popularity </title>
+    <link rel="stylesheet" href="style.css">
+</head> <!--DONE-->
+<body>
+    <header>
+        <h4>SPOTIFY MUSIC POPULARITY PREDICTOR</h4>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="plots.html">Plots</a></li>
+                <li><a href="we.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header> <!--DONE-->
+    <main>
+        <section class="intro">
+            <h1>DS 4200 - Final Project: Analyzing Features Contributing to Music Popularity</h1>
+            <h2><a href='https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset'>Data Source Used: Spotify</a></h2>
+            <h2> Project Introduction </h2>
+            <p> <!--??unDONE??-->
+                <!-- Project Indtroduction -->
+                Music is an integral part of our lives. It is a medium of showing and feeling expression and understanding emotion which is shared throughout all the demographics of the human population. We as a group enjoy listening to music and we know everyone else does too. We all want to keep up with the trending songs and listen to what others are listening, as if other people liked it there is a good chance you will too. But what makes a song popular? And how do different music streaming apps determine that? We tried to answer these questions by using spotify which is arguably the most widely used platform for music. Through this analysis, we aim to uncover patterns and insights that define what makes a song successful and provide us the basis for discovering songs that could become popular.
+            </p>
+            <h2> Data Introduction </h2>
+            <p>The dataset we used explores the factors that contribute to a song’s popularity by analyzing 20 qualitative and quantitative features, including both continuous and discrete variables. Using a dataset of 114,000 songs with attributes like energy, danceability, acousticness, genre, artist name, duration and many more, we examine how these features correlate with popularity through various visualizations. The data was collected and cleaned using Spotify's Web API and Python. The dataset encompasses audio features and genre classifications designed for music recommendation and classification applications. It contains measurable audio attributes (likely including tempo, rhythm, timbre, and spectral features), genre labels, and potentially user preference data that can support personalized recommendation systems based on user inputs. The scope enables both supervised learning for genre classification and collaborative or content-based filtering for recommendations, while potentially supporting additional applications such as mood detection, artist similarity analysis, and music trend identification. The original date of data collection and publishing is unclear and not published publically. The list of features we explore is: track_id, artists, album_name, track_name, popularity, duration_ms, explicit, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time_signature, track_genre.
+            </p>
+            <img src="images/sptfy.png" alt="Graphic Name" class="big-image">
+        </section>
+
+        <h2> Tasks Performed by Everyone</h2>
+        <ul>
+        <li>Saariya Faraz contributed two Altair plots to the project, assisted with website development, and was instrumental in locating the data source.</li>
+        <li>Daman Anand created two visualizations, helped identify the data source, and contributed to the project writeup.</li>
+        <li>Sahaj Baxi developed two visualizations and provided valuable assistance with both the writeup and website design.</li>
+        </ul>
+        
+        <footer> <!--DONE-->
+            <section class="references">
+                <h2>References</h2>
+                <p>Some Reads We Found!</p>
+                <ul class="references-links">
+                    <li><a href="https://onesearch.library.northeastern.edu/permalink/01NEU_INST/87npqb/cdi_doaj_primary_oai_doaj_org_article_47acdc49e5d54862b35e0a828f4a76aa" class="active">K Means Music Analysis</a></li>
+                    <li><a href="https://onesearch.library.northeastern.edu/permalink/01NEU_INST/87npqb/cdi_crossref_primary_10_34185_1562_9945_6_155_2024_07" class="active">Predicting Song Popularity</a></li>
+                </ul>
+            </section>
+        </footer>
+    </main>
+
+</body>
+</html>
+
+It will be better to separate the project intro and data intro. have a list of all features and talk about the scope of the data (year etc.) No need to mention about the tech sets including HTML/Altair etc.
+
+
+
